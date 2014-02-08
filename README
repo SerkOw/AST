@@ -1,0 +1,7 @@
+AST project
+
+Assignment 1:
+
+$(".assignment").find("h1").text('Assignment (click me!)');$('.assignment').on('click', "h1", function() { 
+var message = ('<p>Good Luck!</p>'); 
+$('.assignment').append(message); });
